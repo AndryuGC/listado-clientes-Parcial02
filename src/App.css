@@ -1,0 +1,53 @@
+.contenedor {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.buscador {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.contador {
+  font-size: 14px;
+  color: #666;
+  margin: 12px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background: #2c3e50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+.sin-resultados {
+  padding: 20px;
+  background: #fff3cd;
+  border-radius: 6px;
+}
