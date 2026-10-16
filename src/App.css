@@ -51,3 +51,17 @@ tr:nth-child(even) {
   background: #fff3cd;
   border-radius: 6px;
 }
+
+.mensaje {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+.mensaje.error {
+  background: #fdecea;
+  color: #b3261e;
+  border-radius: 6px;
+}
